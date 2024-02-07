@@ -320,6 +320,10 @@ header .menu nav a:hover {
   border-radius: 30px;
   background-color: #2b383c;
   color: white;
+  transition: 0.3s;
+}
+#pricingtable .box .btn:hover {
+  background-color: rgb(0, 0, 0);
 }
 #pricingtable .bigicon {
   color: rgb(162, 192, 190);
@@ -333,10 +337,6 @@ header .menu nav a:hover {
 }
 #pricingtable .PREMIUM-color .btn {
   background-color: #708f97;
-  transition: 0.2s;
-}
-#pricingtable .PREMIUM-color .btn:hover {
-  background-color: rgb(0, 0, 0);
 }
 @media screen and (max-width: 768px) {
   #pricingtable .box {
